@@ -3,6 +3,7 @@ import './App.css';
 import './components/style/antd.min.css'
 import Icon from  './components/icon';
 import Button from "./components/button";
+import Badge from './components/badge'
 
 const logo = require('./logo.svg');
 
@@ -19,6 +20,7 @@ class App extends React.Component {
           <Icon type="book" />
         </p>
         <Button type='danger' icon='search'>Antd</Button>
+        <Badge count={18}><a href="#">花里胡哨</a></Badge>
       </div>
     );
   }

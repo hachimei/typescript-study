@@ -5,6 +5,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "omit.js": "^1.0.0",
+    "rc-animate": "^2.4.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts-ts": "2.13.0"
